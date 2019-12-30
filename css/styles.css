@@ -1,0 +1,168 @@
+body {
+  
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.1rem;
+  overflow: hidden
+}
+
+.top-container {
+  
+  padding-top: 100px;
+  background-color: #1b7fbd;
+  position: relative;
+}
+.middle-container {
+  margin: 100px 0;
+}
+.bottom-container {
+  background-color: #42e6a4;
+  padding: 50px 0 20px;
+}
+h1 {
+  color: #42e6a4;
+  margin: 50px auto 0 auto;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 5.625rem;
+}
+h2 {
+  color: #42e6a4;
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3 {
+  color: #29a19c;
+  font-family: "Raleway", sans-serif;
+}
+p {
+  line-height: 2;
+}
+
+.pro {
+  text-decoration: underline;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: rgb(209, 216, 216);
+  border-width: 8px;
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
+.mountain{
+  width: auto ;
+  max-width: 100%;
+  height: auto;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 170px;
+  top: 70px;
+  
+}
+
+.top-cloud {
+  position: absolute;
+  right: 320px;
+  top: 30px;
+}
+.Myself-img {
+  border-radius: 50%;
+  height: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 180px auto;
+  text-align: left;
+}
+.Intro-text {
+  margin: auto;
+  width: 30%;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.85rem;
+  padding: 20px 0;
+  
+  
+}
+.end-description {
+  margin: 40px auto 40px auto;
+}
+
+.pc-video{
+  float: left;
+  width: 40%;
+  margin-right: 30px;
+ 
+ }
+ .android-video{
+  float: right;
+  width: 40%;
+  margin-left: 30px;
+ }
+.footer-link {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  margin:10px 20px;
+  color: #29a19c;
+}
+.footer-link:hover{
+  color: #eaf6f6;
+}
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 60px;;
+}
+.project-link {
+  color: #29a19c;
+  
+}
+.project-link:hover{
+  color: #20644a;
+}
+
+.btn {
+  box-shadow: 0px 10px 14px -7px #38cf93;
+  background: linear-gradient(to bottom, #42e6a4 5%, #37be88 100%);
+  background-color: #42e6a4;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #38cf93;
+  
+}
+.btn:hover {
+  background: linear-gradient(to bottom, #38cf93 5%, #2bb67e 100%);
+  background-color: #38cf93;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+@media (max-width: 750px) {
+  
+  .pc-video{
+    
+    width: 130%;
+    
+   
+   }
+   .android-video{
+    
+    width: 130%;
+    
+   }
+}
